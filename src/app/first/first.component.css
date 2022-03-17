@@ -1,0 +1,203 @@
+h1{
+    font-size: 2.5vw;
+}
+p{
+    font-size: 1.5vw;
+}
+
+.custom-navbar{
+    background-color: #E8780F;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.custom-navbar2{
+    background-color: #E3E0E0;
+    color: #E8780F;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%; 
+}
+.boxitem{
+    margin: 2%;
+}
+.topimage{
+    height: 10%;
+    width: 10%;
+    margin: 2%;
+}
+.box1{
+    background-color: #102252;
+    height: 40%;
+    width: 30%;
+    border-radius: 9px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.233);
+
+}
+.box2{
+    background-color: #96201C;
+    height: 40%;
+    width:30%;
+    border-radius: 9px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.233);
+}
+@media only screen and (max-width: 425px){
+    .box1{
+        width:40%;
+    }
+    .box2{
+        width:40%;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    /* .boxitem h1{
+        font-size: 1.0rem;
+    } */
+    p{
+        font-size: 2.5vw;
+    }
+    .topimage{
+        height: 20%;
+        width: 20%;
+    }
+}
+
+.offercustomtext{
+    color: #E8780F;
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.custom-card {
+    border-radius: 20px;
+}
+
+.card-custom {
+    border-radius: 25px;
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 130px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.card-body {
+    margin-top: 12px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #E8780F;
+    border-color: #E8780F;
+}
+
+.btn-outline-primary {
+    color: #E8780F;
+    border-color: #E8780F;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: #E8780F;
+    color: #ffffff;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line {
+    margin: 0px;
+}
+.avtar-custom{
+    background-color: whitesmoke;
+}
+.ribbon-2 i {
+    color: black;
+	margin-right: 4px;
+}
+
+.ribbon-2 {
+    --f: 0px;
+    /*control the folded part */
+    --r: 10px;
+    /* control the ribbon shape */
+    --t: 172px;
+    /* the top offset */
+
+    position: absolute;
+    inset: var(--t) calc(-1*var(--f)) auto auto;
+    padding: 0 20px var(--f) calc(10px + var(--r));
+    clip-path:
+        polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%,
+            calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)),
+            var(--r));
+    background: #E8780F;
+
+}
+.ribbon-2 h5 {
+    color: #ffffff;
+    display: flex;
+    align-items: baseline;
+	margin: 2px;
+}
+.boxitem{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.boxitem h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.boxitem2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.footericon{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}

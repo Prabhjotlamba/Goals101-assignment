@@ -1,0 +1,77 @@
+<nav class="navbar custom-navbar">
+
+  <i routerLink="" class="fa fa-arrow-left" aria-hidden="true"></i>
+
+
+  <a class="heading h1 mx-auto navbar-brand">OFFERS</a>
+</nav>
+<div class="card card-custom bg-white border-white border-0">
+  <div class="card-custom-img mainimg" style=" background-image: url(../../assets/image/slider\ img1.png);"></div>
+  <div class="card-custom-avatar">
+    <img class="img-fluid avtar-custom" src="../../assets/image/image3.png" alt="Avatar" />
+  </div>
+  <div class="card-body" style="overflow-y: auto">
+    <h4 class="card-title">Discount:Upto Rs 10,000</h4>
+    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta eos natus architecto eligendi
+      rem ad necessitatibus ut quia vitae quaerat neque ullam sapiente fugit quos obcaecati laudantium nulla, veniam,
+      adipisci qui est autem accusantium in? Veritatis officiis nobis esse provident consectetur, dolorem ullam! Ea
+      tenetur consequuntur suscipit aliquam mollitia consectetur, quo ad? Quae laboriosam praesentium placeat dolore,
+      quia illum. Minus voluptate laboriosam architecto reprehenderit quos nemo sed dignissimos voluptas cum error.
+      Magni itaque odio molestias natus odit laudantium, deserunt, consequuntur aliquid veniam doloremque iusto quia
+      libero maxime dolorem sunt quisquam soluta placeat perferendis blanditiis, ad ipsam? Magni ex praesentium ullam ab
+      aspernatur sit, aliquid consequuntur, corporis voluptatibus reiciendis facere quos reprehenderit quidem dolor!</p>
+  </div>
+  <div>
+    <div class="termlogo">
+      <img src="../../assets/image/noun_percentage_1123318@2x.png" alt="#">
+      <h4 class="card-title">Terms and conditons</h4>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, aliquam eaque natus itaque ab quaerat, atque
+      molestias esse quos minima animi nostrum nihil blanditiis vero temporibus dolore maxime earum quasi quae iste
+      alias ipsa! Ducimus provident expedita eveniet minus natus quo maxime voluptatibus possimus id molestias
+      asperiores odit quos earum repellat nesciunt, ullam enim mollitia similique assumenda in dolorum facere officiis
+      aspernatur sequi. Officiis harum, accusantium porro inventore non hic qui reprehenderit perferendis deserunt amet
+      ad minima libero doloremque assumenda blanditiis id ducimus neque odio pariatur enim? Soluta neque provident
+      incidunt doloremque perspiciatis, distinctio, asperiores consectetur, quisquam suscipit facere excepturi corporis
+      aperiam.</p> <br>
+    
+    <hr />
+    <div class="button">
+    <button  type="button" class="btn btn-primary" (click)="openPopup()">CLAIM OFFER
+    </button>
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="../../assets/image/check.png" alt="">
+            <h4>Offer Claimed Successfully</h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" (click)="closePopup()">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+</div>
+<br>
+<br>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+
+  <div class=" text-center py-3 " style="background-color: #2C2B2B;">
+    <div class="footericon">
+      <i class="fa fa-bars" aria-hidden="true" routerLink=""></i>
+      <i class="fa fa-bell" aria-hidden="true" routerLink="infopage"></i>
+      <i class="fa fa-compass" aria-hidden="true" routerLink="infopage"></i>
+      <i class="fa fa-user" aria-hidden="true" routerLink="infopage"></i>
+      <i class="fa fa-cog" aria-hidden="true" routerLink="infopage"></i>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
